@@ -13,7 +13,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 //License
 
 //Register Syncfusion license
-Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Mgo+DSMBMAY9C3t2VVhhQlFac1pJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRdkNjWn9edHNRRmZYWEM=");
+Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Mgo + DSMBPh8sVXJ9S0d + X1JPd11dXmJWd1p / THNYflR1fV9DaUwxOX1dQl9mSXtSd0ViXXledHZQQ2BXU00 =");
 
 var app = builder.Build();
 

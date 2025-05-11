@@ -119,3 +119,9 @@ body {
     border-radius:1rem;
     background-color:#1a222b;
 }
+/*hiding license request*/
+/
+/* Hide Syncfusion trial banner */
+.e-license-banner {
+    display: none !important;
+}

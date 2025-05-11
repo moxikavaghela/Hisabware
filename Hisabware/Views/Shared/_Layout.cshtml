@@ -73,5 +73,15 @@
     @* <script src="https://cdn.syncfusion.com/ej2/29.1.33/dist/ej2.min.js"></script> *@
     <ejs-scripts></ejs-scripts>
     @await RenderSectionAsync("Scripts", required: false)
+    @* <script>
+        // Try to remove the Syncfusion license banner
+        setInterval(() => {
+            const banner = document.querySelector('div[style*="z-index"][style*="position: fixed"]');
+            if (banner) {
+                banner.remove();
+            }
+        }, 0);
+    </script>
+ *@
 </body>
 </html>
